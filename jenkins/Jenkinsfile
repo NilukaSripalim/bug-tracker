@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+                echo 'Hello Im Niluka'
+                sh 'date'
+                sh 'echo "Srilanka Colombo"'
+                sh 'echo "I need to win this game, and Ill"'
+            }
+        }
+    }
+}
